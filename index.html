@@ -375,8 +375,8 @@
 </footer>
 
 <script type="module">
-  import { renderPricingCards } from "/js/stripe-billing.js";
-  import { onAuthChange, getUserProfile } from "/js/firebase-config.js";
+  import { renderPricingCards } from "js/stripe-billing.js";
+  import { onAuthChange, getUserProfile } from "js/firebase-config.js";
 
   // Render pricing cards — check auth state to show current plan
   onAuthChange(async (user) => {
